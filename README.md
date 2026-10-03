@@ -20,29 +20,19 @@ The purpose of this project is to develop software that supports players and the
 
 ## Requirements
 
-Requirements are written as user stories. These are initial requirements and they can be changed or expanded later.
+### Product backlog
 
-### Player user stories
+1. As a player, I want to be able to set my number, so I can compare it with the result of my dice throw.
+2. As a player, I want to be able to give my character a name, because I want to be immersed into the game.
+3. As a player, I want to be able to choose a style and role for my character, so I can remember them.
+4. As a player, I want the software to save my information (number, name, style and role), so I can use them in multiple playing sessions.
+5. As a GM, I want to be able to throw a dice, so I can create a random adventure.
+6. As a player, I want to view my saved character information, so that I can check my character details during the game.
+7. As a player, I want to see my latest dice result, so that I can remember the outcome of my most recent action.
+8. As a GM, I want to view the players' character information, so that I can manage the game session more easily.
+9. As a GM, I want to generate a random adventure idea, so that I can quickly create events for the players.
 
-- As a player, I want to be able to throw a dice, so that I can determine whether my action succeeds.
-- As a player, I want to be able to set my character number, so that I can compare it with the result of my dice throw.
-- As a player, I want to give my character a name, so that I can identify my character during the game.
-- As a player, I want to choose a style and role for my character, so that I can remember the important details of my character.
-- As a player, I want the software to save my character information, so that I can use the same information in later game sessions.
+### Sprint 1 backlog
 
-### GM user stories
-
-- As a GM, I want to be able to throw a dice, so that I can create random game events.
-- As a GM, I want the software to work in a modern web browser, so that it is easy to access during a game session.
-- As a GM, I want to view useful game information, so that I can manage the game more easily.
-
-
-### Additional player user stories
-
-- As a player, I want to view my saved character information, so that I can check my character details during the game.
-- As a player, I want to see my latest dice result, so that I can remember the outcome of my most recent action.
-
-### Additional GM user stories
-
-- As a GM, I want to view the players' character information, so that I can manage the game session more easily.
-- As a GM, I want to generate a random adventure idea, so that I can quickly create events for the players.
+- (Not started) As a GM, I want to be able to use the software in a modern web browser, because they are easy to use and easily available.
+- (Not started) As a player, I want to be able to throw a dice, because the result of the throw determines if I succeed or not in whatever I am trying to do.
