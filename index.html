@@ -12,6 +12,16 @@
 
     <h2>Game Tools</h2>
 
-    <p>Dice throwing will be added here.</p>
+    <button onclick="throwDice()">Throw Dice</button>
+
+    <p id="result">Result will appear here.</p>
+
+    <script>
+        function throwDice() {
+            let result = Math.floor(Math.random() * 6) + 1;
+            document.getElementById("result").textContent =
+                "Dice result: " + result;
+        }
+    </script>
 </body>
 </html>

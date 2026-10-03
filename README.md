@@ -35,4 +35,4 @@ The purpose of this project is to develop software that supports players and the
 ### Sprint 1 backlog
 
 - (Done) As a GM, I want to be able to use the software in a modern web browser, because they are easy to use and easily available.
-- (Not started) As a player, I want to be able to throw a dice, because the result of the throw determines if I succeed or not in whatever I am trying to do.
+- (Done) As a player, I want to be able to throw a dice, because the result of the throw determines if I succeed or not in whatever I am trying to do.
