@@ -35,3 +35,14 @@ Requirements are written as user stories. These are initial requirements and the
 - As a GM, I want to be able to throw a dice, so that I can create random game events.
 - As a GM, I want the software to work in a modern web browser, so that it is easy to access during a game session.
 - As a GM, I want to view useful game information, so that I can manage the game more easily.
+
+
+### Additional player user stories
+
+- As a player, I want to view my saved character information, so that I can check my character details during the game.
+- As a player, I want to see my latest dice result, so that I can remember the outcome of my most recent action.
+
+### Additional GM user stories
+
+- As a GM, I want to view the players' character information, so that I can manage the game session more easily.
+- As a GM, I want to generate a random adventure idea, so that I can quickly create events for the players.
