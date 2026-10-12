@@ -41,4 +41,4 @@ The purpose of this project is to develop software that supports players and the
 ### Sprint 2 backlog
 - (Done) As a player, I want to be able to set my number, so I can compare it with the result of my dice throw.
 - (Done) As a player, I want to be able to give my character a name, because I want to be immersed into the game.
-- (In progress) As a player, I want to be able to choose a style and role for my character, so I can remember them.
+- (Done) As a player, I want to be able to choose a style and role for my character, so I can remember them.
