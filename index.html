@@ -12,6 +12,15 @@
 
     <h2>Player Character</h2>
 
+    <label for="characterName">Character name:</label>
+    <input type="text" id="characterName">
+
+    <button onclick="saveName()">Save Name</button>
+
+    <p id="nameMessage"></p>
+
+    <br>
+
     <label for="playerNumber">Character number:</label>
     <input type="number" id="playerNumber" min="2" max="5">
 
@@ -26,6 +35,18 @@
     <p id="result">Result will appear here.</p>
 
     <script>
+        function saveName() {
+            let name = document.getElementById("characterName").value.trim();
+
+            if (name !== "") {
+                document.getElementById("nameMessage").textContent =
+                    "Character name saved: " + name;
+            } else {
+                document.getElementById("nameMessage").textContent =
+                    "Please enter a character name.";
+            }
+        }
+
         function saveNumber() {
             let number = document.getElementById("playerNumber").value;
 
