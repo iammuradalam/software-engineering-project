@@ -10,6 +10,15 @@
 
     <p>Software support for players and the GM.</p>
 
+    <h2>Player Character</h2>
+
+    <label for="playerNumber">Character number:</label>
+    <input type="number" id="playerNumber" min="2" max="5">
+
+    <button onclick="saveNumber()">Save Number</button>
+
+    <p id="numberMessage"></p>
+
     <h2>Game Tools</h2>
 
     <button onclick="throwDice()">Throw Dice</button>
@@ -17,8 +26,21 @@
     <p id="result">Result will appear here.</p>
 
     <script>
+        function saveNumber() {
+            let number = document.getElementById("playerNumber").value;
+
+            if (number >= 2 && number <= 5) {
+                document.getElementById("numberMessage").textContent =
+                    "Character number saved: " + number;
+            } else {
+                document.getElementById("numberMessage").textContent =
+                    "Please choose a number between 2 and 5.";
+            }
+        }
+
         function throwDice() {
             let result = Math.floor(Math.random() * 6) + 1;
+
             document.getElementById("result").textContent =
                 "Dice result: " + result;
         }
