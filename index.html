@@ -28,6 +28,36 @@
 
     <p id="numberMessage"></p>
 
+    <br>
+
+    <label for="characterStyle">Style:</label>
+    <select id="characterStyle">
+        <option value="">Choose style</option>
+        <option value="Alien">Alien</option>
+        <option value="Android">Android</option>
+        <option value="Dangerous">Dangerous</option>
+        <option value="Hot-shot">Hot-shot</option>
+        <option value="Intrepid">Intrepid</option>
+        <option value="Sexy">Sexy</option>
+    </select>
+
+    <br><br>
+
+    <label for="characterRole">Role:</label>
+    <select id="characterRole">
+        <option value="">Choose role</option>
+        <option value="Doctor">Doctor</option>
+        <option value="Engineer">Engineer</option>
+        <option value="Explorer">Explorer</option>
+        <option value="Pilot">Pilot</option>
+        <option value="Scientist">Scientist</option>
+        <option value="Soldier">Soldier</option>
+    </select>
+
+    <button onclick="saveStyleRole()">Save Style and Role</button>
+
+    <p id="styleRoleMessage"></p>
+
     <h2>Game Tools</h2>
 
     <button onclick="throwDice()">Throw Dice</button>
@@ -56,6 +86,19 @@
             } else {
                 document.getElementById("numberMessage").textContent =
                     "Please choose a number between 2 and 5.";
+            }
+        }
+
+        function saveStyleRole() {
+            let style = document.getElementById("characterStyle").value;
+            let role = document.getElementById("characterRole").value;
+
+            if (style !== "" && role !== "") {
+                document.getElementById("styleRoleMessage").textContent =
+                    "Style saved: " + style + " | Role saved: " + role;
+            } else {
+                document.getElementById("styleRoleMessage").textContent =
+                    "Please choose both a style and a role.";
             }
         }
 
