@@ -36,3 +36,9 @@ The purpose of this project is to develop software that supports players and the
 
 - (Done) As a GM, I want to be able to use the software in a modern web browser, because they are easy to use and easily available.
 - (Done) As a player, I want to be able to throw a dice, because the result of the throw determines if I succeed or not in whatever I am trying to do.
+  
+
+### Sprint 2 backlog
+- (Not started) As a player, I want to be able to set my number, so I can compare it with the result of my dice throw.
+- (Not started) As a player, I want to be able to give my character a name, because I want to be immersed into the game.
+- (Not started) As a player, I want to be able to choose a style and role for my character, so I can remember them.
